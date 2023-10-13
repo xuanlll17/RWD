@@ -11,9 +11,7 @@ body {
 }
 
 .wrapper {
-	width: 1200px;
 	background-color: #FFF;
-	margin: 0 auto;
 }
 
 .header {
@@ -23,47 +21,45 @@ body {
 
 .header img {
 	vertical-align: bottom;
+	width: 100%;
+	height: auto;
 }
 
 /*所有display:flex的指令要下在母盒,
   預設不換行,要自行設定*/
+  /*flex-wrap: wrap;*/
+  /*flex-direction: column;*/
+  /*height: 100vh;*/
+  /*justify-content: center;*/
+  /*align-items:center*/
 .box {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	height: 100vh;
-
+	
 }
 
 /*設定所有盒子(b1,b2,b3)寬度相同
   calc(100%/3)計算*/
+  /*width: 30%;*/
+  /*padding: 20px;*/
+  /*box-sizing: border-box;*/
 .box div {
-	width: 30%;
-	padding: 20px;
-	box-sizing: border-box;
+	width: 300px;
 	
 }
 
 .b1 {
 	background-color: gainsboro;
+	/*align-self: flex-end;*/
+	flex: 1 1 400px;
 }
 
 .b2 {
 	background-color: aliceblue;
+	flex: 2 0 400px;
 }
 
 .b3 {
 	background-color: lightblue;
+	flex: 0 0 400px;	
 }
 
-.b4 {
-	background-color: oldlace;
-}
-
-.b5 {
-	background-color: powderblue;
-}
-
-.b6 {
-	background-color: rosybrown;
-}
