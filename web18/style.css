@@ -28,17 +28,20 @@ body {
 /*所有display:flex的指令要下在母盒,
   預設不換行,要自行設定*/
 .box {
-
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100vh;
+
 }
 
 /*設定所有盒子(b1,b2,b3)寬度相同
-  calc()計算*/
+  calc(100%/3)計算*/
 .box div {
-	width: calc(100%/3);
-	padding: 10px;
+	width: 30%;
+	padding: 20px;
 	box-sizing: border-box;
+	
 }
 
 .b1 {
