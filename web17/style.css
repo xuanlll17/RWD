@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    left: 55px;
+    top: 9px;
+}
+
+h1 img {}
+
+ul {
+    position: absolute;
+    right: 26px;
+    top: 30px;
+    
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+
+li a {
+    box-sizing: border-box;
+    background-image: url(./icon1_1.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 16px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+li a:hover {}
