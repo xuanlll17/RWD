@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+h1{
+    background-color: rgb(114, 192, 240);
+    color: cadetblue;
+    width: 350px;
+    height: 100px;
+}
+h2{
+    background-color: blanchedalmond;
+    color: olivedrab;
+    width: fit-content;
+    height: 100px;
+}
+p{
+    background-color: burlywood;
+    width: 500px;
+    height: 300px;
+}
+a{
+    background-color: rgba(158, 234, 156, 0.495);
+    color: cornflowerblue;
+    display: block;
+    width: 300px;
+    height: 100px;
+}

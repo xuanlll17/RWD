@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.BBB{
+    background-color: gray;
+    text-align: justify;
+    padding: 80px 30px;
+    
+}
+.BBB h1{
+    color: burlywood;
+}
+.AAA,.CCC{
+    background-color: yellow;
+    color: blue;
+    padding: 30px 10px;
+}
+.AAA h1{
+    color: brown;
+}

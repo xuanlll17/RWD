@@ -1,0 +1,19 @@
+body{
+    font-family: "Arial", "Helvetica", "微軟正黑體", "sans-serif";
+}
+a{
+    color: cadetblue;
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: beige;
+
+}
+a:hover, p:hover{
+    color: rgb(27, 106, 47);
+    background-color: rgb(205, 117, 50);
+    font: 1.5em "新細明體";
+    
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url("reset.css");
+div {
+    background-image: url(./banner.jpg);
+    box-sizing: border-box;
+    width: 1200px;
+    height: 350px;
+    position: relative;
+   
+}
+
+h1 {
+    background-color: antiquewhite;
+    position: absolute;
+    left: 650px;
+    top: 130px;
+    z-index: 1;
+
+}
+
+h2 {
+    background-color: #d7fae0;
+    position: absolute;
+    left: 650px;
+    top: 120px;
+    width: 190px;
+}
+
+p {
+    background-color: azure;
+    position: absolute;
+    left: 650px;
+    top: 188px;
+    /*right: 100px;*/
+    width: 450px;
+
+}
+

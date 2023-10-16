@@ -1,0 +1,23 @@
+body{
+    background-color: #e0eef3;
+}
+h1{
+    font-size: 30px;
+    color: yellow; 
+    line-height: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    color: orange;
+    line-height: 20px;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+p{
+    font-weight: bold;
+    color: rgb(21, 110, 18);
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: justify;
+}

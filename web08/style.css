@@ -1,0 +1,15 @@
+body{
+    background-image: url(./1920x1200.jpg);
+    background-attachment: fixed;
+}
+.box{
+    background-image: url(./bg04.jpg),url(./bg08.png),url(./bg06.png);
+    background-color: rgba(255, 255, 255, 0.363);
+    width: 1200px;
+    margin: auto;
+    background-repeat:repeat-y,no-repeat,no-repeat;
+    background-position: left top, left bottom, right top;
+}
+p{
+    text-align: justify;
+}
