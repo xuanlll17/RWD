@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCC;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+}
+
+h2 {
+	color: aqua;
+	font-size: 100px;
+	text-align: center;
+	margin: 10px;
+	/*font-weight: normal;*/
+	/*h2->Bold,*/
+	font-family: "3Dumb";
+}
+
+.wrapper {
+	background-color: #FFF;
+	width: 1200px;
+
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.box {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #333 3px solid;
+	border-radius: 20px;
+}
+
+/*==============================*/
+.box1 {
+	color: #FFF;
+	background-color: #F90;
+	font-family: NEORD;
+}
+
+.box1 span {
+	font-family: Entypo;
+	font-size: 80px;
+	vertical-align: middle;
+	/*字和圖置中*/
+	color: #09F;
+	margin-right: 10px;
+}
+
+/*==============================*/
+.box2 {
+	background-color: #9C0;
+}
+
+.box2 li {
+	list-style: none;
+}
+
+/*==============================*/
+.box3 {
+	background-color: #09F;
+}
+
+.box3 li {
+	list-style: none;
+}
+
+.box3 li a {
+	display: block;
+	/*width: 200px*/
+	height: 60px;
+	line-height: 60px;
+	background-color: #FFF;
+	margin-bottom: 26px;
+	text-decoration: none;
+	text-indent: 55px;
+}
+
+.box3 li a:hover {
+	background-color: #9C0;
+	color: cadetblue;
+	font-weight: bold;
+}
+
+.box3 li a:hover span {
+	color: aliceblue;
+}
+
+/*==============================*/
+.box4 {
+	background-color: yellow;
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.box4 p::before {
+	content: "\f720";
+	font-family: "Material Symbols Outlined";
+	font-size: 26px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+/*==============================*/
+.box5 {
+	background-color: rgb(245, 232, 43);
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.box5 p::before {
+	content: "S";
+	font-family: Entypo;
+	font-size: 26px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+/*======可變式圖示======*/
+.material-symbols-outlined {
+	font-variation-settings:
+		'FILL' 1,
+		/*圖案是否要填充*/
+		'wght' 300,
+		'GRAD' 0,
+		'opsz' 24;
+	font-size: 40px !important;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/*======字型嵌入======*/
+@font-face {
+	font-family: "3Dumb";
+	src: url(./3Dumb.ttf);
+}
+
+@font-face {
+	font-family: NEORD;
+	src: url(./NEORD___.ttf);
+}
+
+/*======字型嵌入_圖示字型======*/
+@font-face {
+	font-family: Entypo;
+	src: url(./Entypo-webfont.ttf);
+}
