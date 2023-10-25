@@ -21,18 +21,22 @@
 	  rotate     旋轉(度deg)
 	  skew       傾斜(度deg)
 	  transition 位移(px,em,%)*/
-	animation: a 5s cubic-bezier(1, 2.17, .82, -0.88) infinite;
+	animation: a 2s linear infinite alternate;
 }
 
 @keyframes a {
 	0%{
-		transform: rotate(500deg);
+		transform: perspective(150px) translateY(-200px);
 	}
 
-	
+	30%{
+		transform: perspective(150px) translateY(80px) rotateX(0deg);
+		
+	}
 
 	100%{
-		transform: scale(1.5) rotate(1080000deg) skew(10deg) translate(10%);
+		transform: perspective(150px) translateY(80px) rotateX(360deg);
+		
 	}
 }
 
@@ -59,7 +63,7 @@
 	text-shadow: #FFF 1px 1px 1px;
 	background-color: rgba(255, 255, 255, 0.3);
 	margin-right: 10px;
-	transition: all .3s;
+	
 }
 .nav li a:hover {
 	color: #FFF;
@@ -68,14 +72,30 @@
 	box-shadow: none;
 	border-radius: 40px;
 	box-shadow: #333 5px 3px 8px;
-	transform: translate(-26px,12px);
+	animation: b .5s infinite;
 }
+
+@keyframes b {
+	0%{
+		transform: scale(1);
+	}	
+
+	100%{
+		transform: scale(1.5);
+	}
+}
+
 .content {
 	background-color: #F2EEDB;
 	padding: 15px 20px;
 	color: #333;
 }
-.content h3 {}
+.content h3 {
+	background-color: aliceblue;
+	width: 100px;
+	animation: a 5s linear infinite;
+	transform-origin: 0%;
+}
 .content img {
 	float: right;
 	margin-left: 10px;
