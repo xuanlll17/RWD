@@ -1,0 +1,16 @@
+.pbox{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 10px;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.all h5, p{
+    text-align: center;
+    margin: 10px;
+}

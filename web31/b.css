@@ -1,0 +1,18 @@
+
+table {
+    margin: auto;
+}
+
+tr{
+    background-color:cornsilk;
+
+}
+
+tr:first-child{
+    background-color: antiquewhite;
+
+}
+
+tr:nth-child(2n){
+    background-color: goldenrod;
+}

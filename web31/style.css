@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./share/bg.gif);
+}
+
+.container {
+    
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #fbaa15;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.header h1 {}
+
+.header ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.header li {
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.header li a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.header li a:hover {
+    color: burlywood;
+}
+
+.banner {}
+
+.banner img {
+    vertical-align: bottom;
+}
+
+.box {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.nav {
+    background-color: #286296;
+    padding: 0 20px;
+    width: 200px;
+    
+}
+
+.nav ul {}
+
+.nav li {
+    list-style: none;
+
+}
+
+.nav li a {
+
+    color: white;
+    display: block;
+    height: 60px;
+    text-decoration: none;
+    border-bottom: 1px dashed white;
+    line-height: 60px;
+    text-align: center;
+
+
+}
+
+.nav li a:hover {
+    color: goldenrod;
+    border-bottom: 1px dashed goldenrod;
+}
+
+.nav li a:hover span {
+    color: goldenrod;
+}
+
+.nav li:last-child a{
+    border: none;
+}
+
+.content {
+    background-color: beige;
+    width: 1000px;
+    padding: 20px;
+}
+
+.content h3{
+    background-image: url(./share/title_bg.png);
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+.content h4{
+    background-color:burlywood;
+    border-left: brown 30px solid;
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.content img{
+    border: 10px yellowgreen dashed;
+    border-radius: 40px;
+    
+}
+
+.content p{
+    margin-bottom: 15px;
+}
+
+.content>p:first-of-type{
+    color: red;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer h4 {}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: white;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+

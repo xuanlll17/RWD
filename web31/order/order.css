@@ -1,0 +1,13 @@
+.content .a{
+    float: left;
+    margin: 0 5px 20px 0;
+}
+
+.content h4{
+    clear: both;
+}
+
+.content .b{
+    float: right;
+    
+}

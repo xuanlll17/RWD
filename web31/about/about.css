@@ -1,0 +1,8 @@
+.content img{
+    float: left;
+    margin: 20px;
+}
+
+.content h4 {
+    clear: both;
+}
