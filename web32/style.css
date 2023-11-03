@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, "微軟正黑體",sans-serif;
+    /*font-size: 30px;  設定1em -> ?px*/
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;  
+    background-color: gainsboro;  
+}
+.header h1{}
+.header ul{}
+.header li{
+    list-style: none;
+    float: left;
+    
+}
+.header li a{
+    margin-right: 20px;
+    color: #6e6e6e;
+}
+.header li a:hover{}
+
+.banner{}
+.banner img{
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.office{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.office .ofbox{
+    background-color: #d1d0d0;
+    width: 22%; /*前面有下display:flex -> 浮起來, 沒有width:100%*/
+    padding: 20px;
+    margin: 1%;
+    text-align: center;
+}
+.office .ofbox img{
+    max-width: 100%;
+    height: auto;
+}
+.office .ofbox p{}
+
+.ad{
+    display: flex;
+}
+.adbox{
+    width: 25%;
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.nav .navbox{
+    background-color: #d1d0d0;
+    width: 16%;
+    margin: 1%;
+    padding: 20px;
+}
+.nav .navbox p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nav .navbox ul{}
+.nav .navbox li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.nav .navbox li a{
+    text-decoration: none;
+}
+.nav .navbox li a:hover{}
+
+.footer{
+    background-color: #7e7e7e;
+    padding: 20px;
+    text-align: center;
+}
+.footer h2{}
+.footer p{}
+
+
+@media screen and (max-width:1200px) and (min-width:769px) {
+    .office {
+        flex-wrap: wrap;
+    }
+    
+    .office .ofbox {
+        width: 44%;
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 50%;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .office {
+        flex-wrap: wrap;
+    }
+    
+    .office .ofbox {
+        width: 88%;
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 100%;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 64%;
+    }
+}
