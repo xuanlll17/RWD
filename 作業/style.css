@@ -136,7 +136,8 @@ html,body{
 .contentb{
     display: grid;
     grid-template-columns: 500px 500px 500px;
-    padding: 50px 95px;
+    place-content: center;
+    padding: 5%;
     background-color: antiquewhite;
     
 }
@@ -242,4 +243,12 @@ span{
 }
 .footer a{
     color: rgb(120, 168, 215);
+}
+
+@media screen {
+    
+}
+
+@media screen {
+    
 }
