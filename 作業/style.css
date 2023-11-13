@@ -249,7 +249,6 @@ span{
     .contentb {
         grid-template-columns: 400px 400px;
     }
-    
 }
 
 @media screen and (max-width:768px) {
