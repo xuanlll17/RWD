@@ -74,8 +74,8 @@ html,body{
 
 .nav{
     color: white;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     margin: 3% 10%;
 }
 .nav h1{
@@ -94,7 +94,6 @@ html,body{
 }
 .nav div{
     padding: 0 20px;
-    width: 20%;
     height: 360px;
 }
 .nav .a {
@@ -244,12 +243,19 @@ span{
 }
 
 @media screen and (max-width:1200px) and (min-width:769px) {
-    .contentb {
-        grid-template-columns: 500px 500px;
+    .nav {
+            grid-template-columns: auto auto;
     }
+    .contentb {
+        grid-template-columns: 400px 400px;
+    }
+    
 }
 
 @media screen and (max-width:768px) {
+    .nav {
+            grid-template-columns: auto;
+    }
     .contentb {
         grid-template-columns: 500px;
     }
