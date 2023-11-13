@@ -94,7 +94,7 @@ html,body{
 }
 .nav div{
     padding: 0 20px;
-    width: 28%;
+    width: 20%;
     height: 360px;
 }
 .nav .a {
@@ -138,8 +138,6 @@ html,body{
     grid-template-columns: 500px 500px 500px;
     place-content: center;
     padding: 5%;
-    background-color: antiquewhite;
-    
 }
 .contentb .a{
     height: 500px;
@@ -223,7 +221,7 @@ html,body{
 .contentc .box p{
     line-height: 30px;
 }
-p{
+p.ct{
     text-align: center;
     padding:0 20px 30px 20px;
 }
@@ -245,10 +243,25 @@ span{
     color: rgb(120, 168, 215);
 }
 
-@media screen {
-    
+@media screen and (max-width:1200px) and (min-width:769px) {
+    .contentb {
+        grid-template-columns: 500px 500px;
+    }
 }
 
-@media screen {
-    
+@media screen and (max-width:768px) {
+    .contentb {
+        grid-template-columns: 500px;
+    }
+    .contentc {
+        display: grid;
+        justify-content: center;
+    }
+    .contentc .box {
+        margin-right: 2%;
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px;
+        border: #c3c2c2 2px solid;
+    }
 }
