@@ -54,10 +54,10 @@ html,body{
 .banner .email{
     color: grey;
     position: absolute;
-    top: 500px;
-    left: 200px;
+    top: 450px;
+    left: 180px;
     background-color: white;
-    padding: 9.8px 48.5px 9.8px 10px;
+    padding: 9px 48px 9px 10px;
 
 }
 .banner a{
@@ -65,17 +65,17 @@ html,body{
     display: inline-block;
     background-color: #343131;
     text-align: center;
-    padding: 11.2px 30px;
+    padding: 11px 30px;
     text-decoration: none;
     position: absolute;
-    top: 500px;
-    left: 470px;
+    top: 450px;
+    left: 450px;
 }
 
 .nav{
     color: white;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     margin: 3% 10%;
 }
 .nav h1{
@@ -94,7 +94,6 @@ html,body{
 }
 .nav div{
     padding: 0 20px;
-    width: 28%;
     height: 360px;
 }
 .nav .a {
@@ -138,8 +137,6 @@ html,body{
     grid-template-columns: 500px 500px 500px;
     place-content: center;
     padding: 5%;
-    background-color: antiquewhite;
-    
 }
 .contentb .a{
     height: 500px;
@@ -223,7 +220,7 @@ html,body{
 .contentc .box p{
     line-height: 30px;
 }
-p{
+.ct{
     text-align: center;
     padding:0 20px 30px 20px;
 }
@@ -245,10 +242,10 @@ span{
     color: rgb(120, 168, 215);
 }
 
-@media screen and (max-width:1200px) and (min-width:769px) {
+@media screen {
     
 }
 
-@media screen and (max-width:768px) {
+@media screen {
     
 }
