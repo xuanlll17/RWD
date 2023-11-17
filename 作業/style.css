@@ -242,41 +242,8 @@ span{
     color: rgb(120, 168, 215);
 }
 
-@media screen and (max-width:1200px) and (min-width:769px) {
-    .banner h1 {
-            position: absolute;
-            top: 20px;
-            left: 60px;
-            font-size: 3em;
-    }
+@media screen {
     
-    .banner p {
-        position: absolute;
-        top: 190px;
-        left: 60px;
-        font-size: 0.8em;
-        line-height: 23px;
-    }
-
-    .banner .email {
-        position: absolute;
-        top: 260px;
-        left: 80px;
-        padding: 8px 20px;
-    }
-
-    .banner a {
-        padding: 10px 30px;
-        position: absolute;
-        top: 260px;
-        left: 290px;
-    }
-    .nav {
-        grid-template-columns: auto auto;
-    }
-    .contentb {
-        grid-template-columns: 400px 400px;
-    }
 }
 
 @media screen and (max-width:768px) {
