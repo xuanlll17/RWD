@@ -283,30 +283,31 @@ span{
     .banner h1 {
         position: absolute;
         top: 5px;
-        left: 50px;
-        font-size: 2em;
+        left: 30px;
+        font-size: 1em;
     }
 
     .banner p {
         position: absolute;
-        top: 120px;
-        left: 50px;
-        font-size: 0.5em;
-        line-height: 23px;
+        top: 65px;
+        left: 30px;
+        font-size: 0.3em;
+        line-height: 13px;
     }
 
     .banner .email {
         position: absolute;
-        top: 180px;
-        left: 60px;
+        top: 100px;
+        left: 40px;
         padding: 3px 10px;
     }
 
     .banner a {
         padding: 5px 10px;
         position: absolute;
-        top: 180px;
-        left: 185px;
+        font-size: 0.5em;
+        top: 100px;
+        left: 125px;
     }
     .nav {
         grid-template-columns: auto;
