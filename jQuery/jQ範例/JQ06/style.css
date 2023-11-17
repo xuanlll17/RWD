@@ -22,7 +22,9 @@ body{
 	position:relative;
 }
 .small img{
-	margin:0 2px;}
+	margin:0 2px;
+	cursor: pointer;
+}
 
 .big{
 	height:300px;}
